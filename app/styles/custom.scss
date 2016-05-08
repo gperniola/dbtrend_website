@@ -1,8 +1,32 @@
 .jumbotron{
     margin:0;
+    background-color:grey;
 }
 
 body{
     padding-top: 0;
     font-family: 'Open Sans', sans-serif;
+}
+
+.page-head{
+    color: white;
+}
+
+.page-title{
+    font-size:80px;
+}
+
+.page-subtitle{
+    color: green;
+}
+
+.btn-button-name, .btn-button-name:link, .btn-button-name:visited {
+    background-color: transparent;
+    border-radius: 0;
+    color: white;
+    border: 1px solid white;
+}
+.btn-button-name:active, .btn-button-name:hover {
+    background-color: white;
+    color: black;
 }
