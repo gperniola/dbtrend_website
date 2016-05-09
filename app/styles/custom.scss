@@ -1,6 +1,15 @@
+.navbar, .jumbotron {
+    margin-bottom: 0;
+}
+
+.navbar {
+    border-radius: 0;
+    background-color:transparent;
+}
+
 .jumbotron{
     margin:0;
-    background: url('../images/jumbo.jpg');
+    background: url('../images/jumbo.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -26,6 +35,7 @@ body{
     border-radius: 0;
     color: white;
     border: 1px solid white;
+    transition: all 0.3s ease 0s;
 }
 .btn-button-name:active, .btn-button-name:hover {
     background-color: white;
