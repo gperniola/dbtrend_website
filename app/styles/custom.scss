@@ -1,34 +1,8 @@
-.navbar, .jumbotron {
-    margin-bottom: 0;
-}
-
-.navbar {
-    border-radius: 0;
-    background-color:transparent;
-}
-
-.jumbotron{
-    margin:0;
-    background: url('../images/jumbo.jpg') no-repeat center center;
-    background-size: cover;
-}
 
 body{
     padding-top: 0;
-    font-family: 'Open Sans', sans-serif;
 }
 
-.page-head{
-    color: white;
-}
-
-.page-title{
-    font-size:80px;
-}
-
-.page-subtitle{
-    color: green;
-}
 
 .btn-button-name, .btn-button-name:link, .btn-button-name:visited {
     background-color: transparent;
@@ -41,3 +15,35 @@ body{
     background-color: white;
     color: black;
 }
+
+
+.parallax-window {
+    height: 100vh;
+    background: transparent;
+    display: table;
+    width:100%;
+
+}
+
+.parallax-content{
+    text-align: center;
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.parallax-content .logo{
+    color: white;
+    font-size: 12vw;
+}
+
+.parallax-content h1{
+    color: black;
+    font-size: 8vw;
+}
+
+.content{
+    min-height: 400px;
+}
+
+
